@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "noEmitOnError": true
+  },
+  "include": ["src/**/*"],       // Incluir todos los archivos TypeScript en la carpeta src
+  "exclude": ["node_modules", "dist"]  // Excluir las carpetas node_modules y dist
+}
